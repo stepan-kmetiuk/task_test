@@ -1,0 +1,37 @@
+/* _____ Basic elements _____ */
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/../fonts/Gilroy-Bold.eot") format("eot");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/../fonts/Gilroy-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/../fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter18pt-Bold.woff2") format("woff2"), url("../fonts/Inter18pt-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:wght@300..900&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main-wrap">
+    <!-- begin header-->
+
+    <header class="header">
+  <div class="container">
+    <div class="header__body">
+      <div class="header__col header__col_logo">
+       <div class="header__logo">
+        <a href="#">
+          <img src="img/header/logo-main.png" width="226" height="126" alt="logotype">
+        </a>
+      </div>   
+      </div>
+      
+
+      <div class="header__navbar">
+        <div class="header__menu-wrap">
+          <nav class="header__menu" id="menu">
+            <ul class="header__list">
+              <li class="menu-item-has-children">
+                <a href="#section-1">Projects</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="#">Item-1</a>
+                  </li>
+                  <li>
+                    <a href="#">Item-2</a>
+                  </li>
+                  <li>
+                    <a href="#">Item-3</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#section-2">About company</a>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#section-3">Cooperation</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="#">Item-1</a>
+                  </li>
+                  <li>
+                    <a href="#">Item-2</a>
+                  </li>
+                  <li>
+                    <a href="#">Item-3</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#section-3">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__col text-right">
+        <div class="header__language lang">
+          <button class="lang__toggle" id="langToggle">EN</button>
+        </div>
+      </div>
+
+      <div class="hamburger-wrap d-md-none">
+        <button class="hamburger hamburger--collapse js-hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+    <!-- end header-->
+    <div class="wrapper">
+      <section class="home section-1 pb-80" id="home" style="background-image: url('img/home/bg-main.jpg');">
+        <div class="home__decor">
+          <img src="img/home/decor-bg.svg" alt="decor background">
+        </div>
+        <div class="container">
+          <div class="home__content">
+            <div class="home__content-left ">
+              <div class="home__content-p" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500"
+                data-aos-mirror="true" data-aos-once="false">
+                <p>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+              <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Company Name</h1>
+            </div>
+            <div class="home__content-right">
+              <p data-aos="fade-up" data-aos-delay="150" data-aos-duration="1300">Lorem Ipsum is <br>
+                simply dummy text of the
+                printing <span>and typesetting</span>
+                industry.
+              </p>
+              <div class="home__content-right-btn" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
+                <a href="#" class="dc-btn dc-btn_primary">Select property</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="projects__inner">
+            <div class="projects__title">
+              <h2>Our projects</h2>
+            </div>
+
+            <!-- swiper -->
+            <div class="projects__swiper swiper">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="projects__card card">
+                    <div class="card__item">
+                      <div class="card__item-img">
+                        <img src="img/projects/slider-img-1.jpg" alt="white cottage and a foreign car">
+                      </div>
+                      <div class="card__content">
+                        <div class="card__content-text">
+                          <h3>Villa</h3>
+                          <p>Lorem Ipsum</p>
+                        </div>
+                        <a class="card__content-btn icon-arrow-right" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="projects__card card">
+                    <div class="card__item">
+                      <div class="card__item-img">
+                        <img src="img/projects/slider-img-2.jpg" alt="white cottage and a foreign car">
+                      </div>
+                      <div class="card__content">
+                        <div class="card__content-text">
+                          <h3>Villa</h3>
+                          <p>Lorem Ipsum</p>
+                        </div>
+                        <a class="card__content-btn icon-arrow-right" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="projects__card card">
+                    <div class="card__item">
+                      <div class="card__item-img">
+                        <img src="img/projects/slider-img-3.jpg" alt="white cottage and a foreign car">
+                      </div>
+                      <div class="card__content">
+                        <div class="card__content-text">
+                          <h3>Villa</h3>
+                          <p>Lorem Ipsum</p>
+                        </div>
+                        <a class="card__content-btn icon-arrow-right" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="projects__card card">
+                    <div class="card__item">
+                      <div class="card__item-img">
+                        <img src="img/projects/slider-img-2.jpg" alt="white cottage and a foreign car">
+                      </div>
+                      <div class="card__content">
+                        <div class="card__content-text">
+                          <h3>Villa</h3>
+                          <p>Lorem Ipsum</p>
+                        </div>
+                        <a class="card__content-btn icon-arrow-right" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="projects__card card">
+                    <div class="card__item">
+                      <div class="card__item-img">
+                        <img src="img/projects/slider-img-1.jpg" alt="white cottage and a foreign car">
+                      </div>
+                      <div class="card__content">
+                        <div class="card__content-text">
+                          <h3>Villa</h3>
+                          <p>Lorem Ipsum</p>
+                        </div>
+                        <a class="card__content-btn icon-arrow-right" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="swiper-navs">
+                <div class="prev">
+                  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="70" height="70" rx="35" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 70 70)"
+                      fill="white" />
+                    <path
+                      d="M48 37.2812L29.3187 37.2812L37.8937 45.8562L35.75 48L23.5 35.75L35.75 23.5L37.8938 25.6437L29.3187 34.2187L48 34.2187L48 37.2812Z"
+                      fill="#272727" />
+                  </svg>
+                </div>
+                <div class="next">
+                  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="70" width="70" height="70" rx="35" transform="rotate(-90 0 70)" fill="white" />
+                    <path
+                      d="M23 37.2812L41.6813 37.2812L33.1063 45.8562L35.25 48L47.5 35.75L35.25 23.5L33.1062 25.6437L41.6813 34.2187L23 34.2187L23 37.2812Z"
+                      fill="#272727" />
+                  </svg>
+                </div>
+              </div>
+
+            </div>
+            <!-- swiper -->
+          </div>
+        </div>
+      </section>
+
+      <section class="descr" id="descr">
+
+        <div class="container">
+          <div class="descr__inner" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            data-aos-anchor-placement="top-center">
+            <p>
+              <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span> Lorem Ipsum has
+              been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining.
+            </p>
+          </div>
+        </div>
+
+        <div class="descr__title">
+          <h4>More than 10 years</h4>
+        </div>
+
+
+      </section>
+
+    </div>
+    <!-- begin footer-->
+    <footer class="footer">
+  <img class="footer__image" src="img/footer/footer.jpg" width="1920" height="1100" alt="">
+  <div class="footer__decor">
+    <img src="img/decor-only.png" alt="decor">
+  </div>
+</footer>
+    <!-- end footer-->
+
+    <script src="js/libs/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="js/main.min.js"></script>
+  </div>
+</body>
+
+</html>
